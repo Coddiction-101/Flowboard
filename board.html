@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Flowboard — Board</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Flow<span>board</span></h1>
+
+        <div class="task-form">
+            <input type="text" id="taskInput" placeholder="Enter a new task...">
+
+            <div class="select-wrap">
+                <select id="prioritySelect">
+                    <option value="high">High</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="low">Low</option>
+                </select>
+            </div>
+
+            <button id="addTaskBtn">Add Task</button>
+            <button id="clearBoardBtn">Clear Board</button>
+        </div>
+
+        <div class="board">
+            <div class="list" id="list1">
+                <h2>To-Dos</h2>
+            </div>
+            <div class="list" id="list2">
+                <h2>Active</h2>
+            </div>
+            <div class="list" id="list3">
+                <h2>Complete</h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

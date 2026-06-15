@@ -2,8 +2,7 @@
 
 A minimal, beginner-built **Kanban board** for organizing tasks across stages — built with pure HTML, CSS, and JavaScript as part of a structured frontend learning journey.
 
-[Live Demo](https://coddiction-101.github.io/Frontend-Projects/Kanban-Board/) 
-
+ 
 ---
 
 ## 📸 Screenshots

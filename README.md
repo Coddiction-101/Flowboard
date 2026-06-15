@@ -12,7 +12,7 @@ A minimal, beginner-built **Kanban board** for organizing tasks across stages â€
 ![Homepage](https://github.com/Coddiction-101/Frontend-Projects/blob/main/Kanban-Board/homepage.png)
 
 ### Board
-![Board](https://github.com/Coddiction-101/Frontend-Projects/blob/main/Kanban-Board/board.png)
+![Board](https://github.com/Coddiction-101/Floww/blob/Main/board.png)
 
 ---
 
